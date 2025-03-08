@@ -1,2 +1,1 @@
-# boston-house-pricing-with-deployment
-End To End Machine Learning Project Implementation With Dockers, Github Actions and Deployment
+# End To End Machine Learning Project Implementation With Docker, Github Actions and Deployment - Boston House Pricing

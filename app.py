@@ -31,7 +31,7 @@ def predict():
     final_input = scaler.transform(np.array(data).reshape(1, -1))
     prediction = model.predict(final_input)
     output = round(prediction[0], 2)
-    return render_template('home.html', prediction_text='The Predicted House Price is {}'.format(output))
+    return render_template('home.html', prediction_text='The Predicted House Price : {}'.format(output))
 
 if __name__ == '__main__':
     app.run(debug=True)
